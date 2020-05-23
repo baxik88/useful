@@ -58,4 +58,8 @@
 Copyright (c) 2020-present, DJWOMS - Omelchenko Michael
 
 
+uvicorn main:app --reload
+
+
+
 

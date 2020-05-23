@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 
 class CategoryBase(BaseModel):
-    name: str = None
+    name: Optional[str] = None
     id: int = None
 
 
